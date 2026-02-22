@@ -18,14 +18,15 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6 text-white text-base font-medium">
         {tabs.map((item) => (
-          <Link to={item} smooth={true} duration={500} >
-            <li key={item}>
-              <a
-                href={''}
-                className="relative after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-white after:transition-all hover:after:w-full"
-              >
-                {item}
-              </a>
+          <Link
+            to={item}
+            smooth={true}
+            duration={500}
+            key={item}
+            className="relative cursor-pointer after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-white after:transition-all hover:after:w-full"
+          >
+            <li>
+              {item}
             </li>
           </Link>
         ))}
@@ -56,17 +57,13 @@ const Navbar = () => {
           <div className="absolute top-16 left-1/2 -translate-x-1/2 w-[90%] rounded-2xl bg-black/60 backdrop-blur-lg border border-white/15 p-6 md:hidden">
             <ul className="flex flex-col gap-4 text-white text-center">
               {tabs.map((item) => (
-                <Link to={item} smooth={true} duration={500} >
-                  <li key={item}>
-                    <a
-                      href={`#${item.toLowerCase()}`}
-                      onClick={() => setOpen(false)}
-                      className="block py-2 hover:text-gray-300 transition"
-                    >
-                      {item}
-                    </a>
-                  </li>
-                </Link>
+                <li key={item}>
+                  <Link to={item} smooth={true} duration={500} >
+
+                    {item}
+
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>

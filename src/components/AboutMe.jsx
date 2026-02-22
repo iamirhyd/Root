@@ -41,25 +41,27 @@ const AboutMe = () => {
                   21 year old frontend developer with experience in <b className='text-white/80'>building web applications</b>, I specialize in turning designs into fully functional code.
                 </p>
               </div>
-
+              {/*three dots*/}
               <div className='flex gap-1 sm:gap-2 pt-2 sm:pt-4'>
                 <div className='w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-white/20'></div>
                 <div className='w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-white/10'></div>
                 <div className='w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-white/5'></div>
               </div>
 
+
+              {/*Social media icon */}
               <div className='flex gap-2 sm:gap-3 pt-2'>
-                <a className='text-white/40 hover:text-white/70 transition'>
-                  <FaGithub size={28} className='sm:w-6 sm:h-6 md:w-7 md:h-7' />
+                <a href='https://github.com/itsRev1L' target='_blank' className='text-white/40 hover:text-white/70 transition'>
+                  <FaGithub size={35} className='sm:w-6 sm:h-6 md:w-7 md:h-7' />
                 </a>
-                <a className='text-white/40 hover:text-white/70 transition'>
-                  <FaLinkedin size={28} className='sm:w-6 sm:h-6 md:w-7 md:h-7' />
+                <a className='text-white/20 hover:text-white/70 transition'>
+                  <FaLinkedin size={35} className='sm:w-6 sm:h-6 md:w-7 md:h-7' />
                 </a>
-                <a className='text-white/40 hover:text-white/70 transition'>
-                  <FaTwitter size={28} className='sm:w-6 sm:h-6 md:w-7 md:h-7' />
+                <a className='text-white/20 hover:text-white/70 transition'>
+                  <FaTwitter size={35} className='sm:w-6 sm:h-6 md:w-7 md:h-7' />
                 </a>
-                <a className='text-white/40 hover:text-white/70 transition'>
-                  <FaDiscord size={28} className='sm:w-6 sm:h-6 md:w-7 md:h-7' />
+                <a className='text-white/20 hover:text-white/70 transition'>
+                  <FaDiscord size={35} className='sm:w-6 sm:h-6 md:w-7 md:h-7' />
                 </a>
               </div>
             </div>

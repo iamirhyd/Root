@@ -9,7 +9,7 @@ import {
   SiMongodb, SiExpress, SiFirebase, SiPostgresql, SiAdobepremierepro
 } from 'react-icons/si';
 
-
+{/*all the data for skills Section*/ }
 const Skills = () => {
   const frontendSkills = [
     { name: "React", icon: FaReact, color: "#61DAFB" },
@@ -45,19 +45,14 @@ const Skills = () => {
 
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8 max-w-7xl mx-auto ">
-
+          {/*Generating skills using data and skillcard component*/}
 
           <div className="w-full">
             <SkillCard title="DESIGN" skills={designSkills} />
           </div>
-
           <div className="w-full">
             <SkillCard title="FRONT-END" skills={frontendSkills} />
           </div>
-
-
-
-
           <div className="w-full md:col-span-2 lg:col-span-1">
             <SkillCard title="IN PROGRESS..." skills={backendSkills} />
           </div>

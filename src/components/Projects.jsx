@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectsCard from './ProjectsCard'
-
+{/*data*/ }
 const Projects = () => {
   const projects = [
     { name: "TEST1", desc: "TEST", image: "", live: "https://github.com/itsRev1L", github: "https://github.com/itsRev1L" },
@@ -20,6 +20,7 @@ const Projects = () => {
             Featured <span className="text-white/70">Projects</span>
           </h3>
         </div>
+        {/*Generating projectCard using data and ProjectsCard component*/}
 
         <ProjectsCard obj={projects} />
 

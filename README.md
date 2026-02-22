@@ -1,16 +1,46 @@
-# React + Vite
+# Moody Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Home Page](./public/preview.png)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🇬🇧 English
 
-## React Compiler
+A modern portfolio website built with React and Tailwind CSS. Features include:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for all devices
+- Glassmorphism UI components
+- Smooth scrolling navigation
+- Skills section with interactive icons
+- Projects showcase
 
-## Expanding the ESLint configuration
+### Technologies Used
+- React.js
+- Tailwind CSS
+- React Icons
+- React Scroll
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+<div dir="rtl" style="text-align: right;">
+
+## 🇮🇷 فارسی
+
+:یک سایت پورتفولیوی مدرن، ویژگی‌ها
+
+<ul style="text-align: right; padding-right: 20px; list-style-position: inside">
+  <li>طراحی واکنش‌گرا برای تمام دستگاه‌ها</li>
+  <li>کامپوننت‌های گلس مورفیسم</li>
+  <li>ناوبری با اسکرول نرم</li>
+  <li>بخش مهارت‌ها با آیکون‌های تعاملی</li>
+  <li>نمایش پروژه‌ها</li>
+</ul>
+
+### تکنولوژی‌های استفاده شده
+<ul style="text-align: right; padding-right: 20px;">
+  <li>React.js</li>
+  <li>Tailwind CSS</li>
+  <li>React Icons</li>
+  <li>React Scroll</li>
+</ul>
+
+</div>

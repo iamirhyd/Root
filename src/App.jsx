@@ -15,26 +15,24 @@ function App() {
       <Navbar />
 
 
-
+      {/*Gradiant*/}
       <div className="min-h-screen w-full bg-black relative overflow-hidden">
-
         <div
           className="absolute inset-0 z-0 pointer-events-none"
           style={{
             background: `
-       radial-gradient(
-         circle at top,
-         rgba(255, 255, 255, 0.05) 0%,
-         rgba(255, 255, 255, 0.05) 20%,
-         rgba(0, 0, 0, 0.0) 60%
-       ),
-       radial-gradient(
-         circle at bottom,
-         rgba(255, 255, 255, 0.05) 0%,
-         rgba(255, 255, 255, 0.05) 20%,
-         rgba(0, 0, 0, 0.0) 60%
-       )
-     `,
+               radial-gradient(
+                  circle at top,
+                   rgba(255, 255, 255, 0.05) 0%,
+                   rgba(255, 255, 255, 0.05) 20%,
+                   rgba(0, 0, 0, 0.0) 60%
+                ),
+               radial-gradient(
+                  circle at bottom,
+                    rgba(255, 255, 255, 0.05) 0%,
+                     rgba(255, 255, 255, 0.05) 20%,
+                     rgba(0, 0, 0, 0.0) 60%
+                )`,
           }}
         />
         <LandingPage />

@@ -4,6 +4,7 @@ import Threads from './animate-ui/components/backgrounds/Threads'
 const LandingPage = () => {
   return (
     <>
+      {/*Background*/}
       <section id='Home' className="relative w-full h-screen overflow-hidden ">
 
         <div className="absolute inset-0 z-0 ">
@@ -13,6 +14,8 @@ const LandingPage = () => {
             enableMouseInteraction={false}
           />
         </div>
+
+        {/*Text*/}
 
         <div className="relative z-10 flex flex-col items-center justify-center h-full gap-4 px-4 text-center">
           <h1 className="text-white font-bold 
