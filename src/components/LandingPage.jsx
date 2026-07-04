@@ -20,14 +20,14 @@ const LandingPage = () => {
         <div className="relative z-10 flex flex-col items-center justify-center h-full gap-4 px-4 text-center">
           <h1 className="text-white font-bold 
                  text-3xl sm:text-4xl md:text-5xl">
-            Moody
+            Amir H. Heidari
           </h1>
 
           <p className="text-gray-300/70 font-bold
                 text-sm sm:text-base md:text-lg 
                 max-w-sm sm:max-w-md md:max-w-3xl
                 leading-relaxed">
-            {"< />"}  Moody by name, creative by nature — crafting web experiences that matter
+            {"< />"}  creative by nature — crafting web experiences that matter
           </p>
         </div>
 
