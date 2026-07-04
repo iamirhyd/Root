@@ -3,7 +3,7 @@ import ProjectsCard from './ProjectsCard'
 {/*data*/ }
 const Projects = () => {
   const projects = [
-    { name: "TEST1", desc: "TEST", image: "", live: "https://github.com/itsRev1L", github: "https://github.com/itsRev1L" },
+    { name: "TodoList", desc: "a basic Todo List", image: "./Preview/Todo.png", live: "https://iamirhyd.github.io/TodoList/", github: "https://github.com/iamirhyd/TodoList" },
     { name: "TEST2", desc: "TEST", image: "", live: "https://github.com/itsRev1L", github: "https://github.com/itsRev1L" },
     { name: "TEST3", desc: "TEST", image: "", live: "https://github.com/itsRev1L", github: "https://github.com/itsRev1L" },
   ]

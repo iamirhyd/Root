@@ -16,9 +16,7 @@ const Skills = () => {
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
     { name: "Tailwind", icon: SiTailwindcss, color: "#38B2AC" },
     { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
-    { name: "Nextjs", icon: SiNextdotjs, color: "#000000" },
-    { name: "Arian", icon: SiNextdotjs, color: "#38B2AC" },
-    { name: "Revil", icon: SiNextdotjs, color: "red" },
+    { name: "Nextjs", icon: SiNextdotjs, color: "#F7DF1E" },
   ];
 
   const designSkills = [
