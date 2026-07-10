@@ -4,7 +4,7 @@ import ProjectsCard from './ProjectsCard'
 const Projects = () => {
   const projects = [
     { name: "TodoList", desc: "a basic Todo List", image: "./Preview/Todo.png", live: "https://iamirhyd.github.io/TodoList/", github: "https://github.com/iamirhyd/TodoList" },
-    { name: "TEST2", desc: "TEST", image: "", live: "https://github.com/itsRev1L", github: "https://github.com/itsRev1L" },
+    { name: "WeatherApp", desc: "WeatherApp with api features", image: "./Preview/WeatherApp.png", live: "https://iamirhyd.github.io/Weather-App/", github: "https://github.com/iamirhyd/Weather-App" },
     { name: "TEST3", desc: "TEST", image: "", live: "https://github.com/itsRev1L", github: "https://github.com/itsRev1L" },
   ]
 
