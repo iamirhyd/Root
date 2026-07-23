@@ -3,9 +3,26 @@ import ProjectsCard from './ProjectsCard'
 {/*data*/ }
 const Projects = () => {
   const projects = [
-    { name: "TodoList", desc: "a basic Todo List", image: "./Preview/Todo.png", live: "https://iamirhyd.github.io/TodoList/", github: "https://github.com/iamirhyd/TodoList" },
-    { name: "WeatherApp", desc: "WeatherApp with api features", image: "./Preview/Weather.png", live: "https://iamirhyd.github.io/Weather-App/", github: "https://github.com/iamirhyd/Weather-App" },
-    { name: "TEST3", desc: "TEST", image: "", live: "https://github.com/iamirhyd", github: "https://github.com/iamirhyd" },
+    {
+      name: "TodoList",
+      desc: "a basic Todo List",
+      image: "./Preview/Todo.png",
+      live: "https://iamirhyd.github.io/TodoList/",
+      github: "https://github.com/iamirhyd/TodoList"
+    },
+    {
+      name: "WeatherApp",
+      desc: "WeatherApp with api features",
+      image: "./Preview/Weather.png",
+      live: "https://iamirhyd.github.io/Weather-App/",
+      github: "https://github.com/iamirhyd/Weather-App"
+    },
+    {
+      name: "TicTacToe", desc: "TicTacToe Game",
+      image: "./Preview/TicTacToe.png",
+      live: "https://github.com/iamirhyd/Tic-Tac-Toe",
+      github: "https://iamirhyd.github.io/Tic-Tac-Toe/"
+    },
   ]
 
   return (
