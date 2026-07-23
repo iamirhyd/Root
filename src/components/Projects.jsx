@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     { name: "TodoList", desc: "a basic Todo List", image: "./Preview/Todo.png", live: "https://iamirhyd.github.io/TodoList/", github: "https://github.com/iamirhyd/TodoList" },
     { name: "WeatherApp", desc: "WeatherApp with api features", image: "./Preview/Weather.png", live: "https://iamirhyd.github.io/Weather-App/", github: "https://github.com/iamirhyd/Weather-App" },
-    { name: "TEST3", desc: "TEST", image: "", live: "https://github.com/itsRev1L", github: "https://github.com/itsRev1L" },
+    { name: "TEST3", desc: "TEST", image: "", live: "https://github.com/iamirhyd", github: "https://github.com/iamirhyd" },
   ]
 
   return (

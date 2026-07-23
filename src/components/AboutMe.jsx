@@ -51,7 +51,7 @@ const AboutMe = () => {
 
               {/*Social media icon */}
               <div className='flex gap-2 sm:gap-3 pt-2'>
-                <a href='https://github.com/itsRev1L' target='_blank' className='text-white/40 hover:text-white/70 transition'>
+                <a href='https://github.com/iamirhyd' target='_blank' className='text-white/40 hover:text-white/70 transition'>
                   <FaGithub size={35} className='sm:w-6 sm:h-6 md:w-7 md:h-7' />
                 </a>
                 <a className='text-white/20 hover:text-white/70 transition'>

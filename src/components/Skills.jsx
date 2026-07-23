@@ -1,22 +1,23 @@
 import React from 'react';
 import SkillCard from './SkillCard';
 import {
-  FaReact, FaJs, FaNodeJs, FaFigma, FaDocker
+  FaReact, FaJs, FaNodeJs, FaFigma, FaDocker,
 } from 'react-icons/fa';
 import {
   SiTypescript, SiTailwindcss, SiNextdotjs,
   SiAdobephotoshop, SiAdobeillustrator, SiAdobeaftereffects,
-  SiMongodb, SiExpress, SiFirebase, SiPostgresql, SiAdobepremierepro
+  SiMongodb, SiExpress, SiFirebase, SiPostgresql, SiAdobepremierepro,
 } from 'react-icons/si';
 
 {/*all the data for skills Section*/ }
 const Skills = () => {
   const frontendSkills = [
+
     { name: "React", icon: FaReact, color: "#61DAFB" },
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
     { name: "Tailwind", icon: SiTailwindcss, color: "#38B2AC" },
     { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
-    { name: "Nextjs", icon: SiNextdotjs, color: "#F7DF1E" },
+    // { name: "Nextjs", icon: SiNextdotjs, color: "#F7DF1E" },
   ];
 
   const designSkills = [
