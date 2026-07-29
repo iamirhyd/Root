@@ -20,8 +20,14 @@ const Projects = () => {
     {
       name: "TicTacToe", desc: "TicTacToe Game",
       image: "./Preview/TicTacToe.png",
-      live: "https://github.com/iamirhyd/Tic-Tac-Toe",
-      github: "https://iamirhyd.github.io/Tic-Tac-Toe/"
+      live: "https://iamirhyd.github.io/Tic-Tac-Toe/",
+      github: "https://github.com/iamirhyd/Tic-Tac-Toe"
+    },
+    {
+      name: "Github User Finder", desc: "An App that lets you search for usernames on github, Powered by Github API",
+      image: "https://raw.githubusercontent.com/iamirhyd/Github-User-Search-App/refs/heads/main/public/Preview.png",
+      live: "https://iamirhyd.github.io/Github-User-Search-App/",
+      github: "https://github.com/iamirhyd/Github-User-Search-App"
     },
   ]
 

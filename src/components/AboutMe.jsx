@@ -3,6 +3,8 @@ import { FaGithub, FaLinkedin, FaTwitter, FaDiscord } from "react-icons/fa";
 import React from 'react'
 
 const AboutMe = () => {
+
+
   return (
     <>
 
