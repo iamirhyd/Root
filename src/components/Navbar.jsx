@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
-  const tabs = ["Home", "About", "Skills", "Projects"]
+  const tabs = ["About", "Skills", "Projects"];
   return (
     <nav className="fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-6xl rounded-full backdrop-blur-md bg-white/10 border border-white/15 flex items-center justify-between px-6 py-2 shadow-lg">
-
       {/* Logo */}
       <div className="shrink-0">
         <img
@@ -25,9 +24,7 @@ const Navbar = () => {
             key={item}
             className="relative cursor-pointer after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-white after:transition-all hover:after:w-full"
           >
-            <li>
-              {item}
-            </li>
+            <li>{item}</li>
           </Link>
         ))}
       </ul>
@@ -38,38 +35,37 @@ const Navbar = () => {
         className="md:hidden flex flex-col gap-1"
       >
         <span
-          className={`h-[2px] w-6 bg-white transition ${open ? "rotate-45 translate-y-[6px]" : ""
-            }`}
+          className={`h-[2px] w-6 bg-white transition ${
+            open ? "rotate-45 translate-y-[6px]" : ""
+          }`}
         />
         <span
-          className={`h-[2px] w-6 bg-white transition ${open ? "opacity-0" : ""
-            }`}
+          className={`h-[2px] w-6 bg-white transition ${
+            open ? "opacity-0" : ""
+          }`}
         />
         <span
-          className={`h-[2px] w-6 bg-white transition ${open ? "-rotate-45 -translate-y-[6px]" : ""
-            }`}
+          className={`h-[2px] w-6 bg-white transition ${
+            open ? "-rotate-45 -translate-y-[6px]" : ""
+          }`}
         />
       </button>
 
       {/* Mobile Menu */}
-      {
-        open && (
-          <div className="absolute top-16 left-1/2 -translate-x-1/2 w-[90%] rounded-2xl bg-black/60 backdrop-blur-lg border border-white/15 p-6 md:hidden">
-            <ul className="flex flex-col gap-4 text-white text-center">
-              {tabs.map((item) => (
-                <li key={item}>
-                  <Link to={item} smooth={true} duration={500} >
-
-                    {item}
-
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )
-      }
-    </nav >
+      {open && (
+        <div className="absolute top-16 left-1/2 -translate-x-1/2 w-[90%] rounded-2xl bg-black/60 backdrop-blur-lg border border-white/15 p-6 md:hidden">
+          <ul className="flex flex-col gap-4 text-white text-center">
+            {tabs.map((item) => (
+              <li key={item}>
+                <Link to={item} smooth={true} duration={500}>
+                  {item}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </nav>
   );
 };
 

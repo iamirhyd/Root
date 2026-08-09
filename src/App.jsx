@@ -1,19 +1,15 @@
-
-import './App.css'
-import AboutMe from './components/AboutMe'
-import LandingPage from './components/LandingPage'
-import Navbar from './components/Navbar'
-import Skills from './components/Skills'
-import Projects from './components/Projects'
-import Footer from './components/Footer'
+import "./App.css";
+import AboutMe from "./components/AboutMe";
+import LandingPage from "./components/LandingPage";
+import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
-
-
   return (
     <>
       <Navbar />
-
 
       {/*Gradiant*/}
       <div className="min-h-screen w-full bg-black relative overflow-hidden">
@@ -35,17 +31,14 @@ function App() {
                 )`,
           }}
         />
-        <LandingPage />
+        {/* <LandingPage /> */}
         <AboutMe />
         <Skills />
         <Projects />
         <Footer />
-
       </div>
-
-
     </>
-  )
+  );
 }
 
-export default App
+export default App;
